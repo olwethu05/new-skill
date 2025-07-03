@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+     <body>
+        <h1 id="heading" onclick="changeText()">Hey babe</h1>
+        <p id="addition"></p>
+
+    <script>
+        document.getElementById("addition") . innerHTML = addNumbers(10, 20);
+
+       function changeText(){
+        if(document.getElementById("heading").innerHTML=='Hey babe'){
+            document.getElementById("heading").innerHTML='I miss you'
+        } else {
+            document.getElementById("heading") .innerHTML='Hey babe'
+        }
+       }
+
+       function addNumbers(num1, num2){
+         return num1 + num2;
+       }
+    </script>
+
+     </body>
+
+
+</html>
